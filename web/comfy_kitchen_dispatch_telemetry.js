@@ -94,7 +94,7 @@ function styleReportWidget(node) {
     if (container) {
         container.style.position = "relative";
         container.style.backgroundImage =
-            'url("/extensions/CK-Telemetry/bg.png")';
+            'url("/extensions/ComfyUI-CK-Telemetry/bg.png")';
         container.style.backgroundRepeat = "repeat";
         container.style.backgroundSize = "362px 737px";
     }

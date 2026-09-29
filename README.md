@@ -4,8 +4,8 @@
 
 A lightweight ComfyUI diagnostic tool built around **Comfy Kitchen** that sheds light on such questions as:
 
-- **What Comfy Kitchen actually selected**
-- **What the system was doing while the prompt ran**
+- **What Comfy Kitchen actually selected?**
+- **What the system was doing while the prompt ran?**
 
 ## <u>Ultimately providing useful insight for :</u>
 
@@ -153,13 +153,24 @@ If you hypothetically wanted the elapsed time and desired report level to finish
 
 CK-Telemetry is intended to be installed as a ComfyUI custom node.
 
-Place it in your ComfyUI custom nodes directory, for example:
-
 ```text
 ComfyUI/
 └── custom_nodes/
     └── CK-Telemetry/
 ```
+
+So, one could cd via terminal to path ...\ComfyUI\custom_nodes and git clone this repo, otherwise:
+ 
+1. Open your file explorer and navigate to your ComfyUI **`custom_nodes`** directory.
+2. Click directly into the **address bar field** at the top of the file explorer window.
+3. Type **`cmd`** and hit **Enter**. *(This instantly opens a terminal window pre-focused on that exact folder).*
+4. Paste the following command and press **Enter** :
+
+   ```bash
+   git clone https://github.com/Elsewhere101/ComfyUI-CK-Telemetry
+   ```
+
+### Dependency Check:
 
 The project uses `psutil` for some system-level resource information, which is a requirement of ComfyUI. If for whatever reason a recent enough `psutil` isn't installed on a system that can be checked via ```python -m pip show psutil``` terminal command - rather than pip installing requirements. txt, an alternatively direct command to run in such a case :
 
@@ -168,3 +179,4 @@ python -m pip install "psutil>=5.9.0"
 ```
 
 ---
+```
