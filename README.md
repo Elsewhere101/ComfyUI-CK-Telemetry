@@ -179,4 +179,10 @@ python -m pip install "psutil>=5.9.0"
 ```
 
 ---
+
+## License
+
+CK-Telemetry is released under the [MIT License](LICENSE).
+
+---
 ```
