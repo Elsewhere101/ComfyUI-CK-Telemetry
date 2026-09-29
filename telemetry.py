@@ -937,7 +937,7 @@ class ComfyKitchenTelemetryReport(_TelemetryNodeMixin, io.ComfyNode):
                "Reports either detailed or summarized Comfy Kitchen kernel dispatch info, and other insightful aspects, "
                "such as hardware/stack performance." "The custom node has the ability to persistively store the reports, "
                "just by simply being wired anywhere within functional ComfyUI workflows (which includes placement "
-               "even after any 'Save' Image/Video/Audio/Latent/etc node that has an ouput to hook into). " 
+               "even after any 'Save' Image/Video/Audio/Latent/etc node that has an output to hook into). " 
                "Project also features flag/env var option to display summary or detailed reports via "
                "terminal, without involvement of the custom node." "Intentionally very lightweight, " 
                "utilizing just psutil, WDDM, and ultimately optimized and intended for AMD GPU users "
