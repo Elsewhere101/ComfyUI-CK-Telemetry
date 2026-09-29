@@ -53,9 +53,11 @@ While this enables a **detailed** terminal report for each run of the ComfyUI se
 set COMFY_KITCHEN_TELEMETRY=2
 ```
 
+---
 
 ![Terminal Report Screenshot](docs/images/TerminalSummaryReport.png)
 
+---
 
 **Worth noting:** <i>When the CK-Telemetry node is also involved it does have override capability that's acknowledged via terminal to inform and serve as a reminder of when either environment variable has been set as well.</i>
 
@@ -87,14 +89,16 @@ Controls visibility of the report field by expanding or contracting, which is us
 
 The actual read-only report field that is also used by the frontend to restore whichever report by simply dropping the previously generated file back into a live ComfyUI canvas.
 
+---
 
 ![Node Screenshot](docs/images/NodeDetailedReport.png)
 
+---
 
 <i>Hardware utilization and memory values are predicated on a **500 ms** sampling interval.</i>
 
 * **Peak** is the highest value observed.
-* **Average** reflects the average of the captured values.
+* **Avg** reflects the average of the captured values.
 
 * **RAM Spill:** Tracks the precise system memory currently utilized by the GPU runtime. Rather than just showing a panic fallback when VRAM overflows, this reflects active staging buffers, tensor streaming pipelines, and background memory shifting handled by the Windows WDDM framework during execution. 
 
