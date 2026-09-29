@@ -12,4 +12,4 @@ Repository = "https://github.com/Elsewhere101/ComfyUI-CK-Telemetry"
 [tool.comfy]
 PublisherId = "elsewhere101"
 DisplayName = "CK-Telemetry"
-Icon = "📊"
+Icon = "https://github.com/user-attachments/assets/8fee00a5-8606-4730-95f3-99fc7450c4db"

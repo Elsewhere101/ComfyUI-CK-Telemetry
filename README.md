@@ -106,7 +106,7 @@ The actual read-only report field that is also used by the frontend to restore w
 
 * **Pagefile:** Disk-based system swap memory allocated and managed by Windows.
 	
-	Note: <i>A few hundred Megabytes (~0.2 to ~0.3 GB) of a Pagefile value appears to be typical for ComfyUI runs and generally is not cause for concern</i>
+	Note: <i>A few hundred Megabytes (~0.2 to ~0.3 GB) of a Pagefile value appears to be typical for ComfyUI runs and generally is not cause for concern.</i>
 
 So seeing reasonably minor values in either field (Ram Spill, Pagefile) does appear to be typical baselines for ComfyUI; especially first, cold run. However, seeing either metric reflect **≥ ~1.0 GB** warrants workflow optimization, or simply utilizing lower quantized models.
 
