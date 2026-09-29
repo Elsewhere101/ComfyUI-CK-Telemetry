@@ -10,6 +10,6 @@ dependencies = ["psutil>=5.9.0"]
 Repository = "https://github.com/Elsewhere101/ComfyUI-CK-Telemetry"
 
 [tool.comfy]
-PublisherId = "Elsewhere101"
+PublisherId = "elsewhere101"
 DisplayName = "CK-Telemetry"
 Icon = "📊"
