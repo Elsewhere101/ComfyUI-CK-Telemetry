@@ -155,6 +155,25 @@ If you hypothetically wanted the elapsed time and desired report level to finish
 
 ## <u>Installation</u>
 
+There are numerous ways to install.
+
+It's available to install via ComfyUI Manager by searching: ```CK-Telemetry```
+
+Also through comfy-cli:
+
+```
+pip install comfy-cli
+```
+
+Then:
+
+```
+comfy node install comfyui-ck-telemetry
+```
+
+Url: https://registry.comfy.org/nodes/comfyui-ck-telemetry
+
+
 CK-Telemetry is intended to be installed as a ComfyUI custom node.
 
 ```text
@@ -163,7 +182,9 @@ ComfyUI/
     └── CK-Telemetry/
 ```
 
-So, one could cd via terminal to path ...\ComfyUI\custom_nodes and git clone this repo, otherwise:
+So, one could alternatively cd via terminal to path ...\ComfyUI\custom_nodes and git clone this repo.
+
+Otherwise:
  
 1. Open your file explorer and navigate to your ComfyUI **`custom_nodes`** directory.
 2. Click directly into the **address bar field** at the top of the file explorer window.
