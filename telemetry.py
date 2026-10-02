@@ -691,10 +691,10 @@ def _configure_state_for_node(
     _ANSI_RESET = "\x1b[0m"
     
     if env_had_terminal_on and not node_wants_terminal:
-        print(f"{_ANSI_REDDISH}[HIP+] CK-TELEMETRY [˻˺]{_ANSI_YELLA} Node override:{_ANSI_RESET} show_terminal_report of node *suppressed* COMFY_KITCHEN_TELEMETRY \nintially set for {env_terminal_level.upper()} report level.\n")
+        print(f"{_ANSI_REDDISH}[HIP+] CK-TELEMETRY [˻˺]{_ANSI_YELLA} Node override:{_ANSI_RESET} show_terminal_report of node *suppressed* COMFY_KITCHEN_TELEMETRY\n initially set for {env_terminal_level.upper()} report level.\n")
         
     elif env_terminal_level and env_terminal_level != t_level and node_wants_terminal:
-        print(f"{_ANSI_REDDISH}[HIP+] CK-TELEMETRY [˻˺]{_ANSI_YELLA} Node override:{_ANSI_RESET} Terminal report level set by COMFY_KITCHEN_TELEMETRY shifted \nfrom {env_terminal_level.upper()} to {t_level.upper()} via terminal_report_level selected from node.\n")
+        print(f"{_ANSI_REDDISH}[HIP+] CK-TELEMETRY [˻˺]{_ANSI_YELLA} Node override:{_ANSI_RESET} Terminal report level set by COMFY_KITCHEN_TELEMETRY shifted\nfrom {env_terminal_level.upper()} to {t_level.upper()} via terminal_report_level selected from node.\n")
 
 
 # -----------------------------------------------------------------------------
@@ -935,7 +935,7 @@ class ComfyKitchenTelemetryReport(_TelemetryNodeMixin, io.ComfyNode):
             ],
             description=(
                "Reports either detailed or summarized Comfy Kitchen kernel dispatch info, and other insightful aspects, "
-               "such as hardware/stack performance." "The custom node has the ability to persistively store the reports, "
+               "such as hardware/stack performance." "The custom node has the ability to persistently store the reports, "
                "just by simply being wired anywhere within functional ComfyUI workflows (which includes placement "
                "even after any 'Save' Image/Video/Audio/Latent/etc node that has an output to hook into). " 
                "Project also features flag/env var option to display summary or detailed reports via "
