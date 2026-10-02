@@ -37,6 +37,9 @@ A lightweight ComfyUI diagnostic tool built around **Comfy Kitchen** that sheds 
 ## <u>Terminal telemetry reporting</u>
 
 You do **not** have to add the CK-Telemetry node to every workflow to get reports.
+<br>
+<br>
+<br>
 
 There is the option to set either of these environment variables:
 
@@ -45,7 +48,9 @@ set COMFY_KITCHEN_TELEMETRY=1
 ```
 
 That enables a compact, **summary** terminal report for each run of the ComfyUI session.
-
+<br>
+<br>
+<br>
 
 While this enables a **detailed** terminal report for each run of the ComfyUI session :
 
@@ -67,27 +72,27 @@ set COMFY_KITCHEN_TELEMETRY=2
 
 ### Embed metadata
 
-Controls whether the report is written into the workflow/output metadata path used by the node.
+* Controls whether the report is written into the workflow/output metadata path used by the node.
 
 ### Terminal report level
 
-Controls whether the terminal provides a summary or detailed report.
+* Controls whether the terminal provides a summary or detailed report.
 
 ### Show terminal report
 
-Allows the node to request a terminal report for the workflow.
+* Allows the node to request a terminal report for the workflow.
 
 ### Node report level
 
-Controls whether the report produced by the node is a summary or detailed report.
+* Controls whether the report produced by the node is a summary or detailed report.
 
 ### Show node report
 
-Controls visibility of the report field by expanding or contracting, which is useful for tightly organized/constrained workflows.
+* Controls visibility of the report field by expanding or contracting, which is useful for tightly organized/constrained workflows.
 
 ### Report
 
-The actual read-only report field that is also used by the frontend to restore whichever report by simply dropping the previously generated file back into a live ComfyUI canvas.
+* The actual read-only report field that is also used by the frontend to restore whichever report by simply dropping the previously generated file back into a live ComfyUI canvas.
 
 ---
 
@@ -121,7 +126,7 @@ The important thing to remember is that the report's:
 
 > **Elapsed to report node**
 
-value represents the time elapsed up to the point where the CK-Telemetry node executes.
+represents the time elapsed up to the point where the CK-Telemetry node executes.
 
 For example:
 
@@ -171,15 +176,17 @@ Then:
 comfy node install comfyui-ck-telemetry
 ```
 
-Url: https://registry.comfy.org/nodes/comfyui-ck-telemetry
+Url: '''https://registry.comfy.org/nodes/comfyui-ck-telemetry'''
 
-
+<br>
+<br>
+<br>
 CK-Telemetry is intended to be installed as a ComfyUI custom node.
 
 ```text
 ComfyUI/
 └── custom_nodes/
-    └── CK-Telemetry/
+    └── ComfyUI-CK-Telemetry/
 ```
 
 So, one could alternatively cd via terminal to path ...\ComfyUI\custom_nodes and git clone this repo.
