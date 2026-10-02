@@ -176,7 +176,7 @@ Then:
 comfy node install comfyui-ck-telemetry
 ```
 
-Url: '''https://registry.comfy.org/nodes/comfyui-ck-telemetry'''
+Url: https://registry.comfy.org/nodes/comfyui-ck-telemetry
 
 <br>
 <br>
